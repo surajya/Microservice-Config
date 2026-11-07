@@ -4,12 +4,18 @@ spring:
   application:
     name: configserver
   profiles:
-    active: native
+    #active: native
+    active: git
   cloud:
     config:
       server:
-        native:
+        #native:
           #search-locations: classpath://config
-          search-locations: "file:///D://JAVA//UDemy//Microservices//microservices//section06//v2-spring-config-server//configserver//src//main//resources//config"
-
+          #search-locations: "file:///D://JAVA//UDemy//Microservices//microservices//section06//v2-spring-config-server//configserver//src//main//resources//config"
+        git:
+          uri: "https://github.com/surajya/Microservice-Config.git"
+          default-label: main
+          timeout: 10s
+          clone-on-start: true
+          force-pull: true
 

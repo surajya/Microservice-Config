@@ -4,7 +4,7 @@ build:
 
 cards:
   message:
-    welcome: Welcome to the Cards Service from QA(Qality Analyst) best team
+    welcome: Welcome to the Cards Service from QA(Qality Analyst) team
     error: An error occurred while processing your request.
   contactDetails:
     email: "qasupport@cards.com"

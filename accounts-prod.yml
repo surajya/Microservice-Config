@@ -4,7 +4,7 @@ build:
 
 accounts:
   message:
-    welcome: Welcome to the Accounts Service from production team
+    welcome: Welcome to the Accounts Service from production Level team
     error: An error occurred while processing your request.
   contactDetails:
     email: "{cipher}ac58e1d6023666f95d73f554e79b194eb1ffc0d7710fcd6092e5fe365def27aa7cd182e76df3a531197eaca667fe2f36"

@@ -4,7 +4,7 @@ build:
 
 loans:
   message:
-    welcome: Welcome to the Loans Service from production team
+    welcome: Welcome to the Loans Service from prod team
     error: An error occurred while processing your request.
   contactDetails:
     email: "prodsupport@loans.com"

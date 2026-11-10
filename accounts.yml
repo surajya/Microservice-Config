@@ -4,7 +4,7 @@ build:
 
 accounts:
   message:
-    welcome: Welcome to the Accounts Service from dev team
+    welcome: Welcome to the Accounts Service from development team
     error: An error occurred while processing your request.
   contactDetails:
     email: "devsupport@accounts.com"
